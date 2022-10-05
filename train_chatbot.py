@@ -22,11 +22,11 @@ classes = []
 documents = []
 ignore_words = ['?', '!']
 
-url = "http://localhost:4564/test"
-json_url = urlopen(url)
-data = json.loads(json_url.read())
+# url = "http://localhost:4564/test"
+# json_url = urlopen(url)
+# data = json.loads(json_url.read())
 
-print(data)
+# print(data)
 
 data_file = open('intents.json', encoding="utf8").read()
 intents = json.loads(data_file)

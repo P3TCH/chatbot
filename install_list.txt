@@ -1,0 +1,7 @@
+python3 -m pip install nltk
+python3 -m pip install numpy
+python3 -m pip install keras
+python3 -m pip install tensorflow-macos
+
+## for gui
+brew install python-tk@3.9
