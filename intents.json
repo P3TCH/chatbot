@@ -1,73 +1,53 @@
 {"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi there", "How are you", "โหลๆ","เทสๆ","หวัดดี", "Hello", "ทักครับ", "Hi"],
-         "responses": ["สวัสดีค่ะ ไม่ทราบว่าลูกค้าต้องการสอบถามด้านไหนคะ", "สวัสดีค่ะ ให้เราช่วยอะไรได้บ้างคะ", "Hi there, how can I help?"],
-         "context": [""]
-        },
-        {"tag": "goodbye",
-         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        {"tag": "howtobuy",
+         "patterns": ["ขายยังไงครับ", "ขายยังไงคะ", "ขายยังไง", "สั่งซื้อยังไงได้บ้าง", "สั่งซื้อยังไงได้บ้างครับ", "สั่งซื้อยังไงได้บ้างคะ", "วิธีซื้อสินค้า", "การสั่งสินค้า", "สั่งสินค้า", "ซื้อสินค้าอย่างไร", "สั่งยังไงครับ", "สั่งยังไงคะ", "สั่งยังไง"],
+         "responses": ["สามารถสั่งซื้อผ่าน ช้อปปี้ ลาซาด้า ได้เลยค่ะ", "สินค้าสามารถสั่งผ่าน shopee และ lazada ได้เลยค่ะ", "สินค้าสามารถสั่งผ่านช่องทาง shopee และ lazada ได้เลยค่ะ"],
          "context": [""]
         },
         {"tag": "thanks",
-         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
-         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "patterns": ["ขอบคุณครับ", "ขอบคุณค่ะ", "ขอบคุณ", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["ยินดีที่ได้ช่วยเหลือคุณ :D", "ยินดีค่ะ ขอบคุณที่ใช้บริการค่ะ", "ขอบคุณที่สนใจสินค้าของร้านเราค่ะ"],
          "context": [""]
         },
-        {"tag": "noanswer",
-         "patterns": [],
-         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+        {"tag": "promsong",
+         "patterns": ["พร้อมส่งไหมครับ", "พร้อมส่งไหมคะ", "พร้อมส่งไหม", "มีของพร้อมส่งไหม", "สินค้าพร้อมส่งไหม", "มีของมั้ย", "มีของมั้ยครับ", "มีของไหมคะ", "พร้อมส่งไหมครับ", "พร้อมส่งไหมคะ", "พร้อมส่งไหม"],
+         "responses": ["มีสินค้าพร้อมส่งค่ะ", "มีของพร้อมส่งค่ะ", "สินค้าทุกชิ้นพร้อมส่งค่ะ"],
          "context": [""]
         },
-        {"tag": "options",
-         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
-         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+        {"tag": "howlong",
+         "patterns": ["ของถึงประมาณกี่วันครับ", "ของถึงประมาณกี่วันคะ", "ของถึงประมาณกี่วัน", "รอของนานไหม", "รอของนานไหมครับ", "รอของนานไหมคะ", "ส่งกี่วัน"],
+         "responses": ["ใช้เวลาการจัดส่งสินค้า 3-5 วันค่ะ","สินค้าใช้เวลาจัดส่งประมาณ 3-5 วันค่ะ"],
          "context": [""]
         },
-        {"tag": "adverse_drug",
-         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
-         "responses": ["Navigating to Adverse drug reaction module"],
+        {"tag": "lod",
+         "patterns": ["ลดหน่อยได้ไหม", "ลดราคาหน่อย", "ลดได้มั้ยครับ", "ลดได้มั้ย", "ลดได้มั้ยคะ", "ลดให้หน่อยได้ไหมคะ", "ลดให้หน่อยได้ไหมครับ"],
+         "responses": ["ขออภัยค่ะ ไม่สามารถลดราคาได้"],
          "context": [""]
         },
-        {"tag": "blood_pressure",
-         "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
-         "responses": ["Navigating to Blood Pressure module"],
+        {"tag": "lakbunchee",
+         "patterns": ["โอนได้ไหมครับ","โอนได้ไหมคะ","โอนได้ไหม","ขอเลขบัญชี","ขอเลขบัญชีครับ","ขอเลขบัญชีค่ะ","ขอเลขบัญชีด้วย","ขอเลขบัญชีด้วยครับ","ขอเลขบัญชีด้วยค่ะ","ขอเลขบชด้วย","ขอเลขบชด้วยครับ","ขอเลขบชด้วยค่ะ","พร้อมเพย์ได้ไหมครับ","พร้อมเพย์ได้ไหมคะ","พร้อมเพย์ได้ไหม","พร้อมเพย์นะคะ","พร้อมเพย์นะครับ", "promptpayได้ไหมครับ","promptpayได้ไหมคะ","promptpayได้ไหม"],
+         "responses": ["สามารถโอนเงินชำระได้ที่เลขบัญชี\n\t- กสิกรไทย เลขบัญชี 235-762-3395\n\t- พร้อมเพย์ 086-566-2345\n\tนาย ไอยากาน เขมะสถิต"],
          "context": [""]
         },
-        {"tag": "blood_pressure_search",
-         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
-         "responses": ["Please provide Patient ID", "Patient ID?"],
-         "context": ["search_blood_pressure_by_patient_id"]
-        },
-        {"tag": "search_blood_pressure_by_patient_id",
-         "patterns": [],
-         "responses": ["Loading Blood pressure result for Patient"],
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "โหลๆ","เทสๆ","หวัดดี", "Hello", "ทักครับ", "Hi", "สวัสดี", "สวัสดีค่ะ", "สวัสดีคะ", "หวัดดี","บอท", "ทำไรอยู่"],
+         "responses": ["สวัสดีค่ะ ไม่ทราบว่าลูกค้าต้องการสอบถามด้านไหนคะ\n- วิธีซื้อสินค้า\n- วิธีการชำระเงิน", "สวัสดีค่ะ ให้เราช่วยอะไรได้บ้างคะะ\n\t- วิธีซื้อสินค้า\n\t- วิธีการชำระเงิน", "สวัสดีคะ ต้องการให้ช่วยเหลือด้านไหนคะะ\n\t- วิธีซื้อสินค้า\n\t- วิธีการชำระเงิน"],
          "context": [""]
         },
-        {"tag": "pharmacy_search",
-         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
-         "responses": ["Please provide pharmacy name"],
-         "context": ["search_pharmacy_by_name"]
-        },
-        {"tag": "search_pharmacy_by_name",
-         "patterns": [],
-         "responses": ["Loading pharmacy details"],
+        {"tag": "howtopay",
+         "patterns": ["มีการชำระเงินแบบไหนบ้าง","วิธีการชำระเงิน","จ่ายยังไงได้บ้าง","จ่ายยังไงได้บ้างครับ","จ่ายยังไงได้บ้างคะ","ชำระเงินได้ทางไหนบ้างครับ","ชำระเงินได้ทางไหนบ้างคะ","วิธีชำระเงิน","วิธีจ่ายตัง"],
+         "responses": ["สามารถชำระเงินได้ 3 ช่องทาง ดังนี้\n\t- กสิกรไทย เลขบัญชี 235-762-3395\n\t- พร้อมเพย์ 086-566-2345\n\tนาย ไอยากาน เขมะสถิต\n\t- เก็บเงินปลายทาง +50 บาท"],
          "context": [""]
         },
-        {"tag": "hospital_search",
-         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
-         "responses": ["Please provide hospital name or location"],
-         "context": ["search_hospital_by_params"]
+        {"tag": "cod",
+         "patterns": ["มีเก็บเงินปลายทางมั้ยคะ","มีเก็บเงินปลายทางมั้ยครับ","มีเก็บเงินปลายทางมั้ย","มีเก็บเงินปลายทางไหม","มีเก็บเงินปลายทางไหมครับ","มีเก็บเงินปลายทางไหมคะ","มีปลายทางมั้ยคะ","มีปลายทางมั้ยครับ","มีปลายทางมั้ย","มีปลายทางไหม","มีปลายทางไหมครับ","มีปลายทางไหมคะ","มี cod ไหม", "cod"],
+         "responses": ["มีเก็บเงินปลายทางค่ะ ราคา +50 บาทค่ะ"],
+         "context": ["cod"]
         },
-        {"tag": "search_hospital_by_params",
-         "patterns": [],
-         "responses": ["Please provide hospital type"],
-         "context": ["search_hospital_by_type"]
-        },
-        {"tag": "test",
-         "patterns": ["สวัสดี"],
-         "responses": ["สวัสดีค่าาา"],
-         "context": ["สวัสดีจ้า"]
+        {"tag": "pricesong",
+         "patterns": ["มีค่าส่งมั้ยคะ","มีค่าส่งมั้ยครับ", "มีค่าส่งเท่าไรคะ", "มีค่าส่งเท่าไรครับ","ค่าส่งเท่าไรคะ","ค่าส่งเท่าไรครับ"],
+         "responses": ["สินค้าทุกชิ้นส่งฟรีค่ะ แต่ถ้าเก็บเงินปลายทางจะเพิ่มค่าส่ง 50 บาทค่ะ"],
+         "context": [""]
         }
    ]
 }

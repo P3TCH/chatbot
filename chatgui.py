@@ -86,7 +86,7 @@ def send():
 
 
 base = Tk()
-base.title("Hello")
+base.title("Shop Bot")
 base.geometry("400x500")
 base.resizable(width=FALSE, height=FALSE)
 
