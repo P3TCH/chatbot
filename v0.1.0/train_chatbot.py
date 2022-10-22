@@ -24,11 +24,12 @@ classes = []
 documents = []
 ignore_words = ['?', '!']
 
-url = "http://localhost:8080/intents.json"
-response = urlopen(url).read()
-
-data_file = open('intents.json', encoding="utf8").read()
-intents = json.loads(response)
+def read_intents():
+    url = "http://localhost:8080/intents.json"
+    response = urlopen(url).read()
+    intents = json.loads(response)
+    return intents
+intents = read_intents()
 
 
 for intent in intents['intents']:
