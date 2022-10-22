@@ -11,9 +11,12 @@ import random
 from urllib.request import urlopen
 #intents = json.loads(open('intents.json', encoding="utf8").read())
 
-url = "http://localhost:8080/intents.json"
-response = urlopen(url).read()
-intents = json.loads(response)
+def read_intents():
+    url = "http://localhost:8080/intents.json"
+    response = urlopen(url).read()
+    intents = json.loads(response)
+    return intents
+intents = read_intents()
 
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
