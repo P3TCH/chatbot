@@ -163,6 +163,66 @@
          "patterns": ["มีรองเท้า adidas รุ่นไหนน้ำหนักเบามั้ยคะ","รองเท้าบาส adidas" ,"มีรองเท้า adidas รุ่นไหนน้ำหนักเบามั้ยครับ","มีรองเท้า adidas รุ่นไหนน้ำหนักเบามั้ย" ,"มีรองเท้า adidas รุ่นไหนน้ำหนักเบาไหม"  ,"มีรองเท้า adidas รุ่นไหนน้ำหนักเบาไหมครับ" ,"มีรองเท้า adidas รุ่นไหนน้ำหนักเบาไหมคะ" ,"adidas รุ่นไหนน้ำหนักเบาบ้าง","adidas รุ่นไหนน้ำหนักเบาบ้างครับ","adidas รุ่นไหนน้ำหนักเบาบ้างคะ","adidas รุ่นไหนใส่สบายบ้าง"],
          "responses": ["น้ำหนักเบา ขอเเนะนำเป็น adidas PURE BOOST หรือ adidas GAZELLE 360 ก็ได้ค่ะ"],
          "context": [""]
+        },
+        {"tag": "Nike รุ่น Air Force",
+         "patterns": ["Nike รุ่น Air Force สีไหนขายดีที่สุด","Nike รุ่น Air Force มีสีไหนบ้าง","Nike รุ่น Air Force มีสีไหนขายดีที่สุดครับ","Nike รุ่น Air Force มีสีไหนขายดีที่สุดคะ"],
+         "responses": ["รุ่นนี้มีทั้งหมดมี 3 ค่ะ มีสีดำ แดง ขาวค่ะ ส่วนสีที่ขายดีที่สุดและแนะนำคือสีขาวค่ะ"],
+         "context": []
+        },
+        {"tag": "Nike Roshe Run",
+         "patterns": ["Nike Roshe Run มีสีอะไรบ้าง","Nike Roshe Run สีไหนคนนิยมซื้อคะ","Nike Roshe Run มีสีอะไรบ้างครับ","Nike Roshe Run มีสีอะไรบ้างคะ"],
+         "responses": ["รุ่นนีมีสีดำ แดง ขาวค่ะ ทางเราขอแนะนำเป็นสีดำค่ะ เพราะส่วนมากนิยมสวมใส่"],
+         "context": []
+        },
+        {"tag": "Nike Revolution",
+         "patterns": ["Nike Revolution มีสีไหนแนะนำบ้างไหมคะ","Nike Revolution มีสีไหนบ้างครับ","Nike Revolution มีสีไหนบ้างคะ"],
+         "responses": ["Nike รุ่น Revolution แนะนำเป็นสีดำคะ แต่สีทั้งหมดมี 3 สี ดำ แดง และชมพูค่ะ"],
+         "context": []
+        },
+        {"tag": "Nike Blazer",
+         "patterns": ["Nike Blazer สีไหนขายดีสุดคะ","Nike Blazer มีสีอะไรบ้าง","Nike Blazer มีสีอะไรบ้างครับ","Nike Blazer มีสีอะไรบ้างคะ","รุ่น Nike Blazer มีสีอะไรบ้าง","รุ่น Nike Blazer มีสีอะไรบ้างครับ","รุ่น Nike Blazer มีสีอะไรบ้างคะ"],
+         "responses": ["Nike Blazer มีทั้งหมด 3 สีค่ะ จะมีเป็นสีขาว สีดำ และสีเทาค่ะ ในส่วนของสีที่ขายดีที่สุดคือสีขาวค่ะ"],
+         "context": []
+        },
+        {"tag": "Nike Lunarepic Flyknit Shield",
+         "patterns": ["Nike Lunarepic Flyknit Shield สีไหนขายดีที่สุด","Nike Lunarepic Flyknit Shield มีสีไหนบ้าง","Nike Lunarepic Flyknit Shield มีสีไหนบ้างครับ","Nike Lunarepic Flyknit Shield มีสีไหนบ้างคะ","รุ่น Nike Lunarepic Flyknit Shield มีสีไหนบ้าง","รุ่น Nike Lunarepic Flyknit Shield มีสีไหนบ้างครับ","รุ่น Nike Lunarepic Flyknit Shield มีสีไหนบ้างคะ"],
+         "responses": ["Nike Lunarepic Flyknit Shield  มีทั้งหมด 3 สีค่ะ ดำ ขาว แดง สีที่ขายดีที่สุดจะเป็นสีดำค่ะ"],
+         "context": []
+        },
+        {"tag": "Nike Victory One",
+         "patterns": ["Nike Victory One สีไหนคนนิยมซื้อครับ","Nike Victory One สีไหนคนนิยมซื้อบ้างคะ"],
+         "responses": ["สีดำนิยมที่สุดค่ะ จากทั้งหมด 3 สีที่มี คือ สีขาว สีแดง และสีดำค่ะ"],
+         "context": []
+        },
+        {"tag": "adidas SUPERSTAR",
+         "patterns": ["adidas SUPERSTAR มีสีอะไรบ้าง","adidas SUPERSTAR มีสีไหนบ้างครับ","adidas SUPERSTAR มีสีไหนบ้างคะ","รุ่น adidas SUPERSTAR มีสีอะไรบ้าง","รุ่น adidas SUPERSTAR มีสีอะไรบ้างครับ","adidas SUPERSTAR มีสีอะไรบ้างคะ"],
+         "responses": ["รุ่นนี้มีทั้งหมด 2 สีคือสีดำและสีขาวค่ะ ทางเราขอแนะนำเป็นสีขาวค่ะ เพราะสามารถแม็ชท์กับชุดได้ง่ายกว่าค่ะ"],
+         "context": []
+        },
+        {"tag": "adidas pure boost",
+         "patterns": ["adidas pure boost มีสีไหนบ้าง","adidas pure boost มีสีไหนบ้างครับ","adidas pure boost มีสีไหนบ้างคะ"],
+         "responses": ["adidas pure boost จะมี 2 สีค่ะตอนนี้ คือ สีน้ำเงิน และสีขาวค่ะ"],
+         "context": []
+        },
+        {"tag": "adidas SUPERSTAR SLIP ON",
+         "patterns": ["adidas SUPERSTAR SLIP ON สีไหนขายดี","adidas SUPERSTAR SLIP ON สีไหนขายดีครับ","adidas SUPERSTAR SLIP ON สีไหนขายดีคะ"],
+         "responses": ["adidas SUPERSTAR SLIP ON มีสีทั้งหมด 3 สีแนะนำเป็นสีดำค่ะ"],
+         "context": []
+        },
+        {"tag": "adidas NMD R1",
+         "patterns": ["adidas NMD R1 มีสีชมพูไหม","adidas NMD R1 มีสีชมพูไหมครับ","adidas NMD R1 มีสีชมพูไหมคะ"],
+         "responses": ["adidas NMD R1จะมี 2 สีคะคือ  สีแดงจะขายดีที่สุดค่ะ และสีขาวค่ะ"],
+         "context": []
+        },
+        {"tag": "adidas STAN SMITH",
+         "patterns": ["adidas STAN SMITH สีไหนหาชุดแม็ชท์ง่าย","adidas STAN SMITH สีไหนหาชุดแม็ชท์ง่ายบ้าง","adidas STAN SMITH สีไหนหาชุดแม็ชท์ง่ายครับ","adidas STAN SMITH สีไหนหาชุดแม็ชท์ง่ายคะ","adidas STAN SMITH มีสีไหนบ้างคะ","adidas STAN SMITH รุ่นไหนนิยมสุดคะ"],
+         "responses": ["adidas STAN SMITH มีทั้งหมด 3 สีค่ะ จะมีสีดำ สีขาว สีครีม ทางเราแนะนำเป็นสีดำค่ะ แม็ชท์เข้ากับชุดได้ง่าย"],
+         "context": []
+        },
+        {"tag": "adidas GAZELLE",
+         "patterns": ["adidas GAZELLE มีสีไหนบ้างครับ","adidas GAZELLE สีไหนแนะนำบ้างคะ"],
+         "responses": ["รุ่นนี้จะมีทั้งหมด 3 สีค่ะ จะมีเป็นสีแดง สีน้ำเงิน สีดำ ทางเราแนะนำสีแดงค่ะเพราะเป็นสีที่นิยมมากที่สุด"],
+         "context": []
         }
    ]
 }
